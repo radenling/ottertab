@@ -1,0 +1,21 @@
+.panel {
+    background: #fff;
+    color: #000;
+}
+
+input[type="text"] {
+    background: #fff;
+    color: #000;
+}
+
+.tabs > li {
+}
+
+.tab > .title {
+    display: block;
+}
+
+.tab > .url {
+    display: block;
+    color: #333;
+}

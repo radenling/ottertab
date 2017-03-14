@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "OtterTab",
+  "author": "Richard Adenling",
+  "version": "0.1",
+  "description": "Fuzzy find tabs by name or url.",
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "OtterTab",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L"
+      },
+      "description": "Displays tab selector"
+    }
+  },
+  "permissions": [
+    "activeTab", "tabs"
+  ]
+}
